@@ -49,6 +49,7 @@ body {
     border: 0;
     font-size: 26px;
     color: white;
+    cursor: pointer;
 }
 
 .circle button:focus {
@@ -64,4 +65,27 @@ body {
     top: 60%;
     transform: rotate(90deg);
     transform-origin: top left;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.content h1 {
+    margin: 0;
+}
+
+.content small {
+    color: #555;
+    font-style: italic;
+}
+
+.content p {
+    color: #333;
+    line-height: 1.5;
 }
